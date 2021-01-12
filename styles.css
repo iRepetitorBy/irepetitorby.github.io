@@ -1,0 +1,159 @@
+body{
+    /*max-width: 800px;*/
+    /*background-color: azure;*/
+    background-color: #eeeeee;
+    font-size: medium;
+}
+
+div.header{
+    text-align: center;
+    background-color: gray;
+}
+
+div.logo{
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+div.headers{
+    margin-left: 25%;
+    padding: 10px;
+    text-align: left;
+}
+
+div.right, div.left{
+    background-color: darkgray;
+    padding: 10px;
+    width: 250px;
+}
+
+div.left{
+    float: left;
+}
+
+div.right{
+    float: right;
+}
+
+div.main{
+    padding: 10px;
+    max-width: 1000px;
+    margin-left: 270px;
+    margin-right: 260px;
+    background-color: #eeeeee;
+}
+
+div.footer{
+    clear: both;
+    padding: 20px;
+    background-color: gray;
+}
+
+p{
+    background-color:#eeeeee;
+}
+
+p.sign{
+    background-color: beige;
+}
+
+p.comment, ul.comment{
+    background-color: beige;
+}
+
+p.photo{
+    background-color: honeydew;
+}
+
+p.law{
+    background-color: hotpink;
+}
+
+p.info{
+    background-color: cadetblue;
+}
+p.rules{
+    border-style: groove;
+}
+
+h1{
+    color: black;
+}
+
+table{
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+}
+
+td{
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+img.block{
+    max-width: 100%;
+    display: block;
+    border: 0;
+    vspace: 5;
+    hspace: 5
+}
+
+img.marker{
+    vertical-align: middle;
+    width: 32px;
+}
+
+
+img.common{
+    width:480px;
+}
+
+blockquote{
+    border-style: solid;
+}
+
+
+
+
+@media screen and (max-width: 800px){
+    div.logo {
+        text-align: left;
+        float: none;
+    }
+    div.headers {
+        margin-left: 0;
+        padding: 0px;
+        width: 100%;
+    }
+
+    div.left, div.right{
+        float: none;
+        width: 100%;
+    }
+
+    div.main{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+/*
+a.blink{
+    color: rgb(50,50,50);
+    text-decoration: underline;
+}
+*/
+
+a{
+    color: rgb(50,50,50);
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: white;
+}
